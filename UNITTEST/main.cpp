@@ -74,7 +74,7 @@ SUITE(Server)//Макрос. FIXTURE при одинаковых аргумие�
         //7 Ошибка аутентификации. Введен не правильный пароль
         p->vector_file = "/home/stud/C++Projects/123144/build-Debug/bin/vector.txt";
         p->resultat_file = "/home/stud/C++Projects/123144/build-Debug/bin/resultat.bin";
-        p->autf_file = "/home/stud/C++Projects/123144/build-Debug/bin/NoPswd.conf";
+        p->autf_file = "/home/stud/C++Projects/123144/build-Debug/bin/Nopswd.conf";
         CHECK_THROW(p->Server("127.0.0.1", "33333"), client_error);
     }
 
