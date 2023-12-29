@@ -31,7 +31,7 @@ int main (int argc, char *argv[])
     string str2;
 
     int opt;
-    while ((opt=getopt (argc,argv,"h:i:p:e:s:a:"))!=-1) {
+    while ((opt=getopt (argc,argv,"hi:p:e:s:a:"))!=-1) {
 
         switch(opt) {
 
