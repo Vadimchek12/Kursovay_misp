@@ -1,6 +1,6 @@
 /**
 * @file Client.h
-* @author  Фейгина Е.А.
+* @author  Щеглов В.Е.
 * @version 1.0
 * @date 25.12.2023
 * @copyright ИБСТ ПГУ
