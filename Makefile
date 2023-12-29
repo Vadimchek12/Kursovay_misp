@@ -9,3 +9,5 @@ build:
 	$(CC) $(CCFlags) $(OPT) $(sources) -o $(target) $(LDLIBS)
 dbg:
 	$(CC) -g $(sources) -o $(target)DBG
+RM:
+	rm -rf $(target) $(target)dbg
